@@ -61,14 +61,14 @@
                       <div class="col-12 col-md-6">
                         <div class="input-group mb-3">
                           <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-circle"></i></span>
-                          <input type="text" class="form-control" placeholder="nombres">
+                          <input type="text" class="form-control" placeholder="nombres" id="nombres">
                         </div>
                       </div>
                       
                         <div class="col-12 col-md-6">
                           <div class="input-group mb-3">
                             <span class="input-group-text" id="basic-addon1"><i class="bi bi-card-heading"></i></span>
-                            <input type="text" class="form-control" placeholder="Documento de identidad">
+                            <input type="text" class="form-control" placeholder="Documento de identidad" id="documento">
                           </div>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
                     </div>                
 
                   
-                  <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                  <button type="submit" class="btn btn-primary w-100" id="botonenvio">Enviar</button>
                 </form>
                 
               </div>
@@ -157,6 +157,8 @@
   <script>
     new WOW().init();
   </script>
+  <script src="../controlers/controladormedicos.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
